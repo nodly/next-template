@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("@nodly/prettier-config"),
+  ...require('@nodly/prettier-config'),
 };
