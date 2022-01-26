@@ -1,7 +1,7 @@
 {
   "name": "@nodly/next-template",
   "version": "1.0.0",
-  "description": "Next.js template",
+  "description": "Simple starter template for Next.js.",
   "author": "Nodly",
   "license": "MIT",
   "repository": {
