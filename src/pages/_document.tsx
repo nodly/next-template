@@ -13,7 +13,7 @@ export default class NodlyDocument extends Document {
     return initialProps;
   }
 
-  render(): JSX.Element {
+  render() {
     return (
       <Html className="tabular-nums antialiased">
         <Head>
