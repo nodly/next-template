@@ -4,5 +4,13 @@
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "prettier"
+  ],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
   ]
 }
