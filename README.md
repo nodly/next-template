@@ -1,3 +1,5 @@
+[![CI](https://github.com/nodly/next-template/actions/workflows/ci.yml/badge.svg)](https://github.com/nodly/next-template/actions/workflows/ci.yml)
+
 # Nodly / Next.js Template
 
 Simple starter template for Next.js.
