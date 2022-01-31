@@ -20,6 +20,18 @@ Start the development server
 yarn dev
 ```
 
+Run linting for the app
+
+```
+yarn lint
+```
+
+Run tests for the app
+
+```
+yarn test
+```
+
 Build the app for production
 
 ```
