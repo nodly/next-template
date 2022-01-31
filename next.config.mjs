@@ -26,8 +26,8 @@ const securityHeaders = [
  */
 const config = {
   swcMinify: true,
-  poweredByHeader: false,
   reactStrictMode: true,
+  poweredByHeader: false,
 
   headers: async () => [
     {
