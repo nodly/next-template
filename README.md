@@ -6,10 +6,10 @@ Simple starter template for Next.js.
 
 ## Installation
 
-Easiest way to use this template as a starter is to use [create-next-app](https://nextjs.org/docs/api-reference/create-next-app).
+Easiest way to get started with this template is to use [@nodly/create-app](https://github.com/nodly/create-app).
 
 ```
-yarn create next-app -e https://github.com/nodly/next-template <project-name>
+yarn create @nodly/app <project-name>
 ```
 
 ## Usage
