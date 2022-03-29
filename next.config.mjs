@@ -1,7 +1,7 @@
 const securityHeaders = [
   {
     key: 'X-DNS-Prefetch-Control',
-    value: 'off',
+    value: 'on',
   },
   {
     key: 'Strict-Transport-Security',
@@ -18,6 +18,10 @@ const securityHeaders = [
   {
     key: 'X-Content-Type-Options',
     value: 'nosniff',
+  },
+  {
+    key: 'Referrer-Policy',
+    value: 'origin-when-cross-origin',
   },
 ];
 
