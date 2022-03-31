@@ -1,6 +1,7 @@
 import Head from 'next/head';
+import type { NextPageWithLayout } from '@/types/app';
 
-const Home = () => {
+const Home: NextPageWithLayout = () => {
   return (
     <>
       <Head>
@@ -11,6 +12,10 @@ const Home = () => {
       </div>
     </>
   );
+};
+
+Home.getLayout = function getLayout(page) {
+  return <div className="page-layout">{page}</div>;
 };
 
 export default Home;
