@@ -16,12 +16,7 @@ export default class NodlyDocument extends Document {
   render() {
     return (
       <Html className="tabular-nums antialiased">
-        <Head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
-            rel="stylesheet"
-          />
-        </Head>
+        <Head />
         <body className="min-h-screen bg-white text-gray-900">
           <Main />
           <NextScript />
