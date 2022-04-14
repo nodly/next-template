@@ -1,5 +1,6 @@
 .next/
 public/
+coverage/
 
 .yarn/
 .yarnrc.yml
