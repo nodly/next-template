@@ -977,7 +977,7 @@ __metadata:
     "@nodly/prettier-config": 1.0.3
     "@tailwindcss/aspect-ratio": 0.4.0
     "@tailwindcss/forms": 0.5.0
-    "@tailwindcss/line-clamp": 0.3.1
+    "@tailwindcss/line-clamp": 0.4.0
     "@tailwindcss/typography": 0.5.2
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 13.1.1
@@ -992,11 +992,11 @@ __metadata:
     husky: 7.0.4
     jest: 28.0.3
     jest-environment-jsdom: 28.0.2
-    lint-staged: 12.3.7
+    lint-staged: 12.4.1
     next: 12.1.5
     postcss: 8.4.12
     prettier: 2.6.2
-    prettier-plugin-tailwindcss: 0.1.8
+    prettier-plugin-tailwindcss: 0.1.10
     react: 18.1.0
     react-dom: 18.1.0
     tailwindcss: 3.0.24
@@ -1085,12 +1085,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/line-clamp@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@tailwindcss/line-clamp@npm:0.3.1"
+"@tailwindcss/line-clamp@npm:0.4.0":
+  version: 0.4.0
+  resolution: "@tailwindcss/line-clamp@npm:0.4.0"
   peerDependencies:
     tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
-  checksum: 805322a6333f029d6d961e02f23099d16f55d31f4736511bc741efff4097a1ad1574a7dff0530b17dbc974e08138b3beb13766f809e0116ebc192b0edf38b737
+  checksum: 71ba25a4a18323496a7af34e55871121b8459530b0e5696c4173fd65a76162675619f1d1158a8a32e1ace2069333949bef6f1061b17f49fef98dc2291a979dcd
   languageName: node
   linkType: hard
 
@@ -4624,9 +4624,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.3.7":
-  version: 12.3.7
-  resolution: "lint-staged@npm:12.3.7"
+"lint-staged@npm:12.4.1":
+  version: 12.4.1
+  resolution: "lint-staged@npm:12.4.1"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -4644,7 +4644,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: b595097556880eb2ab7ce2cf105047f6f22525ccfd608fbdc63ab243259aa36a26949576fadff673748fb885e7cb37ad3f4471d964ad54c1205d57a58999ba24
+  checksum: b57183b537064cda6caef6679918bf271903145f7c28d09567e918b8b13094048b579f8df808ea590dbd7ea2ec332327c5e372cf3d77e85b7b0254f6541ce4c3
   languageName: node
   linkType: hard
 
@@ -5549,12 +5549,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:0.1.8":
-  version: 0.1.8
-  resolution: "prettier-plugin-tailwindcss@npm:0.1.8"
+"prettier-plugin-tailwindcss@npm:0.1.10":
+  version: 0.1.10
+  resolution: "prettier-plugin-tailwindcss@npm:0.1.10"
   peerDependencies:
     prettier: ">=2.2.0"
-  checksum: b183f061dfd07dd6faee5244c1d1f9efe39ec58b4b8382bb6de379e2a831484bd9b59baca1cb58b46872de40c63d7958cdb2adc953706019b0929843b3406228
+  checksum: 465a7e02bd2224f9773f35190b6b4d19f281848d0492d4d43eabf403b33117303222faf775d8d569d0ce8bbb75336aa4db005db1935bb78c551ff711a8f89537
   languageName: node
   linkType: hard
 
