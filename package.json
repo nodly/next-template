@@ -25,7 +25,7 @@
   "devDependencies": {
     "@nodly/prettier-config": "1.0.3",
     "@tailwindcss/aspect-ratio": "0.4.0",
-    "@tailwindcss/forms": "0.5.1",
+    "@tailwindcss/forms": "0.5.2",
     "@tailwindcss/line-clamp": "0.4.0",
     "@tailwindcss/typography": "0.5.2",
     "@testing-library/jest-dom": "5.16.4",
@@ -42,7 +42,7 @@
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "lint-staged": "12.4.1",
-    "postcss": "8.4.13",
+    "postcss": "8.4.14",
     "prettier": "2.6.2",
     "prettier-plugin-tailwindcss": "0.1.11",
     "tailwindcss": "3.0.24",
