@@ -3,7 +3,7 @@ import '@/styles/global.css';
 import Head from 'next/head';
 import type { AppPropsWithLayout } from '@/types/app';
 
-function NodlyApp({ Component, pageProps }: AppPropsWithLayout) {
+function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout ?? ((page) => page);
 
   return (
@@ -16,4 +16,4 @@ function NodlyApp({ Component, pageProps }: AppPropsWithLayout) {
   );
 }
 
-export default NodlyApp;
+export default CustomApp;

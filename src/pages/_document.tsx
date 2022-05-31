@@ -6,7 +6,7 @@ import Document, {
   NextScript,
 } from 'next/document';
 
-export default class NodlyDocument extends Document {
+export default class CustomDocument extends Document {
   static async getInitialProps(context: DocumentContext) {
     const initialProps = await Document.getInitialProps(context);
 
