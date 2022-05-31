@@ -16,7 +16,7 @@
     "start": "next start",
     "postinstall": "husky install"
   },
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.2.1",
   "dependencies": {
     "next": "12.1.6",
     "react": "18.1.0",
