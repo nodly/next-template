@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Layout } from '@/components';
 import type { NextPageWithLayout } from '@/types/app';
 
 const Home: NextPageWithLayout = () => {
@@ -15,7 +16,7 @@ const Home: NextPageWithLayout = () => {
 };
 
 Home.getLayout = function getLayout(page) {
-  return <div className="page-layout">{page}</div>;
+  return <Layout>{page}</Layout>;
 };
 
 export default Home;
