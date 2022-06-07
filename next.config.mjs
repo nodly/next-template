@@ -28,7 +28,7 @@ const securityHeaders = [
 /**
  * @type {import('next').NextConfig}
  */
-const config = {
+const nextConfig = {
   swcMinify: true,
   reactStrictMode: true,
   poweredByHeader: false,
@@ -41,4 +41,4 @@ const config = {
   ],
 };
 
-export default config;
+export default nextConfig;
