@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@nodly/prettier-config": "1.0.4",
@@ -29,7 +29,7 @@
     "@tailwindcss/typography": "0.5.2",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.3.0",
-    "@types/node": "16.11.39",
+    "@types/node": "16.11.40",
     "@types/react": "18.0.12",
     "@typescript-eslint/eslint-plugin": "5.28.0",
     "@typescript-eslint/parser": "5.28.0",
@@ -44,7 +44,7 @@
     "postcss": "8.4.14",
     "prettier": "2.7.0",
     "prettier-plugin-tailwindcss": "0.1.11",
-    "tailwindcss": "3.1.2",
+    "tailwindcss": "3.1.3",
     "typescript": "4.7.3"
   },
   "packageManager": "yarn@3.2.1"
