@@ -20,8 +20,6 @@ jobs:
         run: yarn --immutable
       - name: Verify formatting
         run: yarn prettier --check .
-      - name: Run lint
-        run: yarn lint
       - name: Run test
         run: yarn test
       - name: Run build
