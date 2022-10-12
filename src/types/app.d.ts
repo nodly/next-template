@@ -9,6 +9,6 @@ export type NextPageWithLayout<P = Record<string, unknown>, IP = P> = NextPage<
   getLayout?: (page: ReactElement) => ReactNode;
 };
 
-export type AppPropsWithLayout = AppProps & {
+export type AppPropsWithLayout<P = Record<string, unknown>> = AppProps<P> & {
   Component: NextPageWithLayout;
 };
