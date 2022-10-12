@@ -1,7 +1,7 @@
 import '@/styles/global.css';
 
-import type { AppPropsWithLayout } from '@/types/app';
 import Head from 'next/head';
+import type { AppPropsWithLayout } from '@/types/app';
 
 function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout ?? ((page) => page);
