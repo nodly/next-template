@@ -7,13 +7,13 @@ import Document, {
 } from 'next/document';
 
 export default class CustomDocument extends Document {
-  static async getInitialProps(context: DocumentContext) {
+  static override async getInitialProps(context: DocumentContext) {
     const initialProps = await Document.getInitialProps(context);
 
     return initialProps;
   }
 
-  render() {
+  override render() {
     return (
       <Html className="tabular-nums antialiased">
         <Head />
