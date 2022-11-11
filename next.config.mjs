@@ -31,6 +31,7 @@ const securityHeaders = [
 const nextConfig = {
   experimental: {
     appDir: true,
+    scrollRestoration: true,
   },
   reactStrictMode: true,
   poweredByHeader: false,
