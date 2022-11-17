@@ -14,7 +14,7 @@
     "test": "jest",
     "build": "next build",
     "start": "next start",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "13.0.3",
