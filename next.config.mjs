@@ -30,7 +30,7 @@ const securityHeaders = [
  */
 const nextConfig = {
   experimental: {
-    appDir: true,
+    serverActions: true,
     scrollRestoration: true,
   },
   reactStrictMode: true,
