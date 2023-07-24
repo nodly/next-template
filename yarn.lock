@@ -967,7 +967,7 @@ __metadata:
     "@tailwindcss/typography": 0.5.9
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 14.0.0
-    "@types/node": 18.16.18
+    "@types/node": 20.4.4
     "@types/react": 18.2.14
     autoprefixer: 10.4.14
     eslint: 8.43.0
@@ -1273,10 +1273,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.18":
-  version: 18.16.18
-  resolution: "@types/node@npm:18.16.18"
-  checksum: d32d8a0a04cd3f5ecb361bcb42f3a07623881ac90d680e06bf626defb3c663a94860d11690babe607cfe67265eceeb8a59ba5fe40c0e49f5a1b01e0088640469
+"@types/node@npm:20.4.4":
+  version: 20.4.4
+  resolution: "@types/node@npm:20.4.4"
+  checksum: 43f3c4a8acc38ae753e15a0e79bae0447d255b3742fa87f8e065d7b9d20ecb0e03d6c5b46c00d5d26f4552160381a00255f49205595a8ee48c2423e00263c930
   languageName: node
   linkType: hard
 
