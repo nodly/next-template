@@ -5,8 +5,9 @@ const createJestConfig = nextJest({
 });
 
 const customJestConfig = {
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testEnvironment: 'jest-environment-jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}'],
 };
 
 module.exports = createJestConfig(customJestConfig);
