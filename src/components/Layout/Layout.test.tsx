@@ -1,8 +1,10 @@
+/**
+ * @jest-environment jsdom
+ */
 import { render, screen } from '@testing-library/react';
-
 import { Layout } from './Layout';
 
-describe('Layout', () => {
+describe('Layout component', () => {
   it('should render empty layout', () => {
     const { container } = render(<Layout />);
 

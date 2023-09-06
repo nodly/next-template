@@ -1,15 +1,14 @@
+/**
+ * @jest-environment jsdom
+ */
 import { render, screen } from '@testing-library/react';
+import Page from './page';
 
-import Home from '@/app/page';
+it('should render root page', () => {
+  render(<Page />);
 
-describe('Home', () => {
-  it('should render template heading', () => {
-    render(<Home />);
+  const heading = screen.getByRole('heading');
 
-    const heading = screen.getByRole('heading', {
-      name: /@nodly\/next-template/i,
-    });
-
-    expect(heading).toBeInTheDocument();
-  });
+  expect(heading).toBeInTheDocument();
+  expect(heading).toHaveTextContent('@nodly/next-template');
 });
