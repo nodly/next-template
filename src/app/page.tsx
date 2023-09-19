@@ -3,7 +3,7 @@ import clsx from 'clsx';
 export default function Home() {
   return (
     <div className="py-20">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-7xl px-6 sm:px-12">
         <div
           className={clsx(
             'flex',
@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="text-2xl sm:text-3xl font-semibold">
             @nodly/next-template
           </h1>
-          <p>
+          <p className="max-w-3xl mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
             maxime voluptatum officia accusantium fugiat temporibus animi
             molestiae quos ducimus! Corrupti minima, odio vero eius molestiae
