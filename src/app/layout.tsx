@@ -19,6 +19,7 @@ const OpenSans = Open_Sans({
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: '@nodly/next-template',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
   };
 }
 
