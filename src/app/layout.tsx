@@ -1,9 +1,16 @@
 import '@/styles/global.css';
 
 import { Layout } from '@/components';
+import { Metadata } from 'next';
 
 interface RootLayoutProps {
   children: React.ReactNode;
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: '@nodly/next-template',
+  };
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
