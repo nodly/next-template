@@ -3,7 +3,13 @@
  */
 const config = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-open-sans)'],
+      },
+    },
+  },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
