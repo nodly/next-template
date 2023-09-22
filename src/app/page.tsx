@@ -1,4 +1,11 @@
 import clsx from 'clsx';
+import { Metadata } from 'next';
+
+export async function generateMetaData(): Promise<Metadata> {
+  return {
+    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+  };
+}
 
 export default function Home() {
   return (
