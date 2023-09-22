@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { Metadata } from 'next';
 
-export async function generateMetaData(): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
   };
