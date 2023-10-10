@@ -12,6 +12,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "test": "jest",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "prepare": "husky install"
