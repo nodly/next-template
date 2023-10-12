@@ -925,7 +925,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nodly/next-template@workspace:."
   dependencies:
-    "@nodly/prettier-config": 2.0.0
+    "@nodly/prettier-config": 2.0.1
     "@tailwindcss/aspect-ratio": 0.4.2
     "@tailwindcss/forms": 0.5.6
     "@tailwindcss/typography": 0.5.10
@@ -955,12 +955,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@nodly/prettier-config@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@nodly/prettier-config@npm:2.0.0"
+"@nodly/prettier-config@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@nodly/prettier-config@npm:2.0.1"
   peerDependencies:
     prettier: ">=2.4.0"
-  checksum: dbbc6ede56c157dcaedcadf83e7bcbfefa725570e8babb93ed47361d3526f4d56e80a0542f01b62ecc1d0ae1b36587e031a924fd8b55974108238e5c992797be
+  checksum: 473c4553da53b3d4f6e3b57660db0204bf6bdbc09bbf30abc596e83036a36da2694c218ddbe5373cb41efd85a2a34307ec337cca4943a5e53ff44c4ccf729fad
   languageName: node
   linkType: hard
 
