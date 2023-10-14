@@ -25,7 +25,6 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
-    "noPropertyAccessFromIndexSignature": true
+    "forceConsistentCasingInFileNames": true
   }
 }
