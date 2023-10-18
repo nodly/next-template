@@ -1,19 +1,17 @@
 import '@/styles/global.css';
 
+import { Inter } from 'next/font/google';
 import { Layout } from '@/components';
 import { Metadata } from 'next';
-import { Open_Sans } from 'next/font/google';
 import clsx from 'clsx';
 
 interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-const OpenSans = Open_Sans({
-  style: ['normal', 'italic'],
-  weight: ['400', '700'],
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-open-sans',
+  variable: '--font-inter',
 });
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -31,7 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         'tabular-nums',
         'antialiased',
         'font-sans',
-        OpenSans.variable,
+        inter.variable,
       )}
     >
       <head>

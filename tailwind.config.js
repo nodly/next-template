@@ -6,7 +6,7 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-open-sans)'],
+        sans: ['var(--font-inter)'],
       },
     },
   },
