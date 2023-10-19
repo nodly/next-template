@@ -22,10 +22,10 @@ export default function Home() {
             'justify-center',
           )}
         >
-          <h1 className="text-2xl sm:text-3xl font-semibold">
+          <h1 className="text-2xl font-semibold sm:text-3xl">
             @nodly/next-template
           </h1>
-          <p className="max-w-3xl mx-auto">
+          <p className="mx-auto max-w-3xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
             maxime voluptatum officia accusantium fugiat temporibus animi
             molestiae quos ducimus! Corrupti minima, odio vero eius molestiae
