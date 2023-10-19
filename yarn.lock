@@ -1239,16 +1239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 20.8.4
-  resolution: "@types/node@npm:20.8.4"
-  dependencies:
-    undici-types: ~5.25.1
-  checksum: 2106b9ef9750297cac68249428d7067c4d22c26908854165b70a164e34e900f4c34bb9bf3887c9391206b500d3e87171d03b1846e25788925236a0354390d278
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.8.7":
+"@types/node@npm:*, @types/node@npm:20.8.7":
   version: 20.8.7
   resolution: "@types/node@npm:20.8.7"
   dependencies:
@@ -1273,18 +1264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 18.2.28
-  resolution: "@types/react@npm:18.2.28"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 81381bedeba83278f4c9febb0b83e0bd3f42a25897a50b9cb36ef53651d34b3d50f87ebf11211ea57ea575131f85d31e93e496ce46478a00b0f9bf7b26b5917a
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:18.2.30":
+"@types/react@npm:*, @types/react@npm:18.2.30":
   version: 18.2.30
   resolution: "@types/react@npm:18.2.30"
   dependencies:
