@@ -1,9 +1,11 @@
 import '@/styles/global.css';
 
-import { Inter } from 'next/font/google';
-import { Layout } from '@/components';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+
 import clsx from 'clsx';
+import { Inter } from 'next/font/google';
+
+import { Layout } from '@/components';
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -14,7 +16,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-export async function generateMetadata(): Promise<Metadata> {
+export function generateMetadata(): Metadata {
   return {
     title: '@nodly/next-template',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
