@@ -11,5 +11,5 @@ it('should render root page', () => {
   const heading = screen.getByRole('heading');
 
   expect(heading).toBeInTheDocument();
-  expect(heading).toHaveTextContent('@nodly/next-template');
+  expect(heading).toHaveTextContent('Nodly Next Template');
 });
