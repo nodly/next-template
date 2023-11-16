@@ -1,12 +1,4 @@
-import type { Metadata } from 'next';
-
 import clsx from 'clsx';
-
-export function generateMetadata(): Metadata {
-  return {
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
-  };
-}
 
 export default function Home() {
   return (
@@ -24,7 +16,7 @@ export default function Home() {
           )}
         >
           <h1 className="text-2xl font-semibold sm:text-3xl">
-            @nodly/next-template
+            Nodly Next Template
           </h1>
           <p className="mx-auto max-w-3xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
