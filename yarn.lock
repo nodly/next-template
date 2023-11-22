@@ -1045,7 +1045,7 @@ __metadata:
     "@testing-library/react": "npm:14.1.2"
     "@types/eslint": "npm:8.44.7"
     "@types/jest": "npm:29.5.8"
-    "@types/node": "npm:20.9.1"
+    "@types/node": "npm:20.9.4"
     "@types/react": "npm:18.2.37"
     "@types/react-dom": "npm:18.2.15"
     "@typescript-eslint/eslint-plugin": "npm:6.11.0"
@@ -1402,12 +1402,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.9.1":
-  version: 20.9.1
-  resolution: "@types/node@npm:20.9.1"
+"@types/node@npm:20.9.4":
+  version: 20.9.4
+  resolution: "@types/node@npm:20.9.4"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: b2b3f9ee31db63ccd3d48e5597d359c3385879679f37a749e473b47068aae181d0e280f39f153d75ce704640b3ec09d029aecd2a686e5658fb866254dc7e781b
+  checksum: d567855b48e453b443499c17fc6c939d154732b54319a05b9b31db6e475e6458f053838635b201b1bb493d349d9b1af0aecc58b28fd6062e564e9fbf593199eb
   languageName: node
   linkType: hard
 
