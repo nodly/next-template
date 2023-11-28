@@ -2,6 +2,7 @@
   "compilerOptions": {
     // Strict mode
     "strict": true,
+    "checkJs": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
