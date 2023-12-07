@@ -1,3 +1,5 @@
+await import('./src/env.js');
+
 const securityHeaders = [
   {
     key: 'X-DNS-Prefetch-Control',
