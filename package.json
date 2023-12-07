@@ -19,6 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "0.7.1",
     "clsx": "2.0.0",
     "next": "14.0.3",
     "react": "18.2.0",
