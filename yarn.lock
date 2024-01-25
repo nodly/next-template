@@ -942,7 +942,7 @@ __metadata:
   resolution: "@nodly/next-template@workspace:."
   dependencies:
     "@nodly/prettier-config": "npm:5.0.1"
-    "@t3-oss/env-nextjs": "npm:0.7.1"
+    "@t3-oss/env-nextjs": "npm:0.8.0"
     "@tailwindcss/aspect-ratio": "npm:0.4.2"
     "@tailwindcss/forms": "npm:0.5.7"
     "@tailwindcss/typography": "npm:0.5.10"
@@ -1058,31 +1058,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@t3-oss/env-core@npm:0.7.1":
-  version: 0.7.1
-  resolution: "@t3-oss/env-core@npm:0.7.1"
+"@t3-oss/env-core@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@t3-oss/env-core@npm:0.8.0"
   peerDependencies:
-    typescript: ">=4.7.2"
+    typescript: ">=5.0.0"
     zod: ^3.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 1e5043d45d32cb2911038dce02f4cfffb0f89a9fda90623f1cea0819f2f4739bb1e6dc949b7d0b6e525abb25d3d55985fcc99cc0e01bd0d1a71da76e7b123484
+  checksum: 5b6de9ddc0dab88a7cb0e12c316a1f272df1b4801351e1b4d1897671d675c7572eb6f0c77b3d44b25b05a14d9ec179e357ed4608582549b550f4827652cbf8ba
   languageName: node
   linkType: hard
 
-"@t3-oss/env-nextjs@npm:0.7.1":
-  version: 0.7.1
-  resolution: "@t3-oss/env-nextjs@npm:0.7.1"
+"@t3-oss/env-nextjs@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@t3-oss/env-nextjs@npm:0.8.0"
   dependencies:
-    "@t3-oss/env-core": "npm:0.7.1"
+    "@t3-oss/env-core": "npm:0.8.0"
   peerDependencies:
-    typescript: ">=4.7.2"
+    typescript: ">=5.0.0"
     zod: ^3.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 862afcb0192784ec2cd9600ed019a5dfcef2e53f988a3bebab6d2cbb539ed36def5178ba3ef3980cfbffbae11617c0536e7489449e590009ec13258147fc8220
+  checksum: a4c855221dd180485f19dbd1877742675f98ee7c821977f9c0302d8331c2ed42daff17863f28e9419e4cbfc154b0ecb403125305b7e996ed0fcf6dc96e0614b1
   languageName: node
   linkType: hard
 
