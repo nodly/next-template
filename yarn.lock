@@ -1126,7 +1126,6 @@ __metadata:
   resolution: "@nodly/next-template@workspace:."
   dependencies:
     "@nodly/prettier-config": "npm:5.0.1"
-    "@t3-oss/env-nextjs": "npm:0.9.2"
     "@tailwindcss/aspect-ratio": "npm:0.4.2"
     "@tailwindcss/forms": "npm:0.5.7"
     "@tailwindcss/typography": "npm:0.5.10"
@@ -1240,34 +1239,6 @@ __metadata:
   dependencies:
     tslib: "npm:^2.4.0"
   checksum: 10/3a3b179b3369acd26c5da89a0e779c756ae5231eb18a5507524c7abf955f488d34d86649f5b8417a0e19879688470d06319f5cfca2273d6d6b2046950e0d79af
-  languageName: node
-  linkType: hard
-
-"@t3-oss/env-core@npm:0.9.2":
-  version: 0.9.2
-  resolution: "@t3-oss/env-core@npm:0.9.2"
-  peerDependencies:
-    typescript: ">=5.0.0"
-    zod: ^3.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10/3f615c06468a169106c547cc635256cb64fae365fe964d280157f65548b6559905d22647c10756c8ad966da5742e37e9ce1082b737e7ce3aa1a2b4d1cacf2803
-  languageName: node
-  linkType: hard
-
-"@t3-oss/env-nextjs@npm:0.9.2":
-  version: 0.9.2
-  resolution: "@t3-oss/env-nextjs@npm:0.9.2"
-  dependencies:
-    "@t3-oss/env-core": "npm:0.9.2"
-  peerDependencies:
-    typescript: ">=5.0.0"
-    zod: ^3.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10/cd08a8681b5364033704a068b52550f4a8e796cdf793b5330a61967b74093bdaf9611e186d470a335cd4b57f4242adb45b61d9a6d5126542e4d3973240d1ac46
   languageName: node
   linkType: hard
 
