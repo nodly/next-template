@@ -10,7 +10,7 @@
     "url": "git+https://github.com/nodly/next-template.git"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "lint": "next lint",
     "test": "jest",
     "debug": "NODE_OPTIONS='--inspect' next dev",
