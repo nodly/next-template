@@ -1,6 +1,4 @@
-/**
- * @type {import("eslint").Linter.Config}
- */
+/** @type {import("eslint").Linter.Config} */
 const config = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -8,9 +6,9 @@ const config = {
   },
   plugins: ['@typescript-eslint', 'testing-library'],
   extends: [
-    'plugin:@next/next/recommended',
-    'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'next/core-web-vitals',
   ],
   rules: {
     // These opinionated rules are enabled in stylistic-type-checked above.
@@ -32,6 +30,10 @@ const config = {
       {
         checksVoidReturn: { attributes: false },
       },
+    ],
+    '@typescript-eslint/no-empty-interface': [
+      'error',
+      { allowSingleExtends: true },
     ],
   },
   overrides: [
