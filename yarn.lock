@@ -913,9 +913,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ianvs/prettier-plugin-sort-imports@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "@ianvs/prettier-plugin-sort-imports@npm:4.2.1"
+"@ianvs/prettier-plugin-sort-imports@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "@ianvs/prettier-plugin-sort-imports@npm:4.3.1"
   dependencies:
     "@babel/core": "npm:^7.24.0"
     "@babel/generator": "npm:^7.23.6"
@@ -929,7 +929,7 @@ __metadata:
   peerDependenciesMeta:
     "@vue/compiler-sfc":
       optional: true
-  checksum: 10/23125ef4fc0b6b490c5bb74fa43635eede12fd5cdcdce24b7c30bad547353d20136a0f664512a73cf373a7871d9e0652c4a1a2fb680e8b418ab74dd9df0df3ef
+  checksum: 10/9bdc0c1d138e8b31ae03f4b160f23ba7d1d8b2e6456c49f5911b42e22c0fb4a336da2fd25747bab5a84fe210a702167600c48ca4fb3b297b70d02f2721980867
   languageName: node
   linkType: hard
 
@@ -1387,7 +1387,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nodly/next-template@workspace:."
   dependencies:
-    "@nodly/prettier-config": "npm:5.1.1"
+    "@nodly/prettier-config": "npm:5.2.0"
     "@tailwindcss/aspect-ratio": "npm:0.4.2"
     "@tailwindcss/forms": "npm:0.5.9"
     "@tailwindcss/typography": "npm:0.5.15"
@@ -1421,15 +1421,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@nodly/prettier-config@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@nodly/prettier-config@npm:5.1.1"
+"@nodly/prettier-config@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@nodly/prettier-config@npm:5.2.0"
   dependencies:
-    "@ianvs/prettier-plugin-sort-imports": "npm:^4.2.1"
-    prettier-plugin-tailwindcss: "npm:^0.6.4"
+    "@ianvs/prettier-plugin-sort-imports": "npm:^4.3.1"
+    prettier-plugin-tailwindcss: "npm:^0.6.8"
   peerDependencies:
     prettier: ">=3.0.0"
-  checksum: 10/3193bd55cdeb4fe89ab9347b1d8dd348b363930306b6e050ada4f11bc28720aa137c04dde1ae7e370695c181643c3fd15cba2ecbd8597640028108e8c2ac8954
+  checksum: 10/6814ade8111c6d09e3cce8bbe27fa4f8c4a46d515fe08c57a9812449601055e4f8991f4bdaa19355ffa0095c9380edd3603408238c3f29c6bbd897182ffc0fee
   languageName: node
   linkType: hard
 
@@ -6506,7 +6506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.6.4":
+"prettier-plugin-tailwindcss@npm:^0.6.8":
   version: 0.6.8
   resolution: "prettier-plugin-tailwindcss@npm:0.6.8"
   peerDependencies:
