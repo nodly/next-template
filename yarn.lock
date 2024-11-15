@@ -1644,7 +1644,7 @@ __metadata:
     postcss: "npm:8.4.47"
     prettier: "npm:3.3.3"
     react: "npm:19.0.0-rc-45804af1-20241021"
-    react-dom: "npm:19.0.0-rc-45804af1-20241021"
+    react-dom: "npm:19.0.0-rc.1"
     tailwindcss: "npm:3.4.14"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.6.3"
@@ -6909,14 +6909,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:19.0.0-rc-45804af1-20241021":
-  version: 19.0.0-rc-45804af1-20241021
-  resolution: "react-dom@npm:19.0.0-rc-45804af1-20241021"
+"react-dom@npm:19.0.0-rc.1":
+  version: 19.0.0-rc.1
+  resolution: "react-dom@npm:19.0.0-rc.1"
   dependencies:
-    scheduler: "npm:0.25.0-rc-45804af1-20241021"
+    scheduler: "npm:0.25.0-rc.1"
   peerDependencies:
-    react: 19.0.0-rc-45804af1-20241021
-  checksum: 10/ecd2e5d463233162d4d4df5ff6ff3881da247f439079cc8dcf3ac29f0d469e057a6a3f0f90173883246a0b6d6f82bb2f82fb6bf9107e86dece5a0f60ac483f40
+    react: 19.0.0-rc.1
+  checksum: 10/9c3f79fe8f8fd10e8a86476df1670d3920f1c1083e56285b5c31d96ca18d223e9d1e78b6b5534ce7ab90a57e2d47ca96d2b3ced3a08a993c937c7f49561b337d
   languageName: node
   linkType: hard
 
@@ -7175,10 +7175,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.25.0-rc-45804af1-20241021":
-  version: 0.25.0-rc-45804af1-20241021
-  resolution: "scheduler@npm:0.25.0-rc-45804af1-20241021"
-  checksum: 10/326e25d73b06f479ed0867bb2ce585598d17de3a1b48302949e030ee217c32daf18a81ae897a00a2bb03cc56f65e1f5d15783e88ddacf42ae0116b3dbeb40778
+"scheduler@npm:0.25.0-rc.1":
+  version: 0.25.0-rc.1
+  resolution: "scheduler@npm:0.25.0-rc.1"
+  checksum: 10/b9dbc9e406ab4af245c3c7cfd1d39e983aa6184ab941cfd7ee5dc1695854280a5dee556f7f81d9e0f392dbe4f2f85966f2b6988beed39f1d5f5e844b1db02c60
   languageName: node
   linkType: hard
 
