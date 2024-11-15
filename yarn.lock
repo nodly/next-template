@@ -1643,7 +1643,7 @@ __metadata:
     next: "npm:15.0.2"
     postcss: "npm:8.4.47"
     prettier: "npm:3.3.3"
-    react: "npm:19.0.0-rc-45804af1-20241021"
+    react: "npm:19.0.0-rc.1"
     react-dom: "npm:19.0.0-rc-45804af1-20241021"
     tailwindcss: "npm:3.4.14"
     ts-node: "npm:10.9.2"
@@ -6941,10 +6941,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.0.0-rc-45804af1-20241021":
-  version: 19.0.0-rc-45804af1-20241021
-  resolution: "react@npm:19.0.0-rc-45804af1-20241021"
-  checksum: 10/4ee08e44960b96ec181c9f2d31ceefeb86fb6b8ecb68b36de56b8c0f1a0399518b40219b83ad5fcc11e1e2bc6eaca09aaa4913b863535b34adac057441dbcae5
+"react@npm:19.0.0-rc.1":
+  version: 19.0.0-rc.1
+  resolution: "react@npm:19.0.0-rc.1"
+  checksum: 10/4da93b26f6d8ca24a4657551fe9e6db92b42e6d8cb54821e3c2c8c5af2098094e5d997b261314a2b5723ad1e0a444a63312b7645f72394f21660da38ea4554f1
   languageName: node
   linkType: hard
 
