@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import clsx from 'clsx';
 import { Inter } from 'next/font/google';
 
-import { Layout } from '@/components';
+import { Layout } from '@/components/layout';
 
 interface RootLayoutProps {
   children: React.ReactNode;
