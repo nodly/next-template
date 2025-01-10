@@ -21,6 +21,6 @@ jobs:
       - name: Verify formatting
         run: yarn prettier --check .
       - name: Run test
-        run: yarn test
+        run: yarn test run
       - name: Run build
         run: yarn build

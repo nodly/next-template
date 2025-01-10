@@ -1,7 +1,5 @@
-/**
- * @jest-environment jsdom
- */
 import { render, screen } from '@testing-library/react';
+import { expect, it } from 'vitest';
 
 import Page from './page';
 
