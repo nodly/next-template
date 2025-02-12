@@ -9,7 +9,7 @@ export default function Home() {
         <div
           className={cn(
             'flex',
-            'min-h-[calc(100vh---spacing(40))]',
+            'min-h-[calc(100dvh---spacing(40))]',
             'flex-col',
             'text-center',
             'items-center',
