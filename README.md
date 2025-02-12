@@ -32,6 +32,12 @@ Run tests for the app
 yarn test
 ```
 
+Generate coverage report for tests
+
+```
+yarn test run --coverage
+```
+
 Build the app for production
 
 ```
