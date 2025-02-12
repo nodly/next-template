@@ -1,14 +1,15 @@
-import clsx from 'clsx';
 import { ExternalLinkIcon } from 'lucide-react';
+
+import { cn } from '@/lib/utils';
 
 export default function Home() {
   return (
     <div className="py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-12">
         <div
-          className={clsx(
+          className={cn(
             'flex',
-            'min-h-[calc(100vh-theme(space.40))]',
+            'min-h-[calc(100vh---spacing(40))]',
             'flex-col',
             'text-center',
             'items-center',

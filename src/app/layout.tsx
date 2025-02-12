@@ -2,10 +2,10 @@ import '@/styles/global.css';
 
 import type { Metadata } from 'next';
 
-import clsx from 'clsx';
 import { Inter } from 'next/font/google';
 
 import { Layout } from '@/components/layout';
+import { cn } from '@/lib/utils';
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -25,12 +25,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html
       lang="en"
-      className={clsx(
-        'tabular-nums',
-        'antialiased',
-        'font-sans',
-        inter.variable,
-      )}
+      className={cn('tabular-nums', 'antialiased', 'font-sans', inter.variable)}
     >
       <head>
         <meta
