@@ -991,7 +991,7 @@ __metadata:
     "@nodly/prettier-config": "npm:5.2.3"
     "@tailwindcss/aspect-ratio": "npm:0.4.2"
     "@tailwindcss/forms": "npm:0.5.10"
-    "@tailwindcss/postcss": "npm:4.0.0"
+    "@tailwindcss/postcss": "npm:4.0.6"
     "@tailwindcss/typography": "npm:0.5.16"
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/jest-dom": "npm:6.6.3"
@@ -1017,7 +1017,7 @@ __metadata:
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     tailwind-merge: "npm:3.0.1"
-    tailwindcss: "npm:4.0.0"
+    tailwindcss: "npm:4.0.6"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.7.3"
     vite-tsconfig-paths: "npm:5.1.4"
@@ -1257,7 +1257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/node@npm:^4.0.0":
+"@tailwindcss/node@npm:^4.0.6":
   version: 4.0.6
   resolution: "@tailwindcss/node@npm:4.0.6"
   dependencies:
@@ -1345,7 +1345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide@npm:^4.0.0":
+"@tailwindcss/oxide@npm:^4.0.6":
   version: 4.0.6
   resolution: "@tailwindcss/oxide@npm:4.0.6"
   dependencies:
@@ -1387,17 +1387,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/postcss@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/postcss@npm:4.0.0"
+"@tailwindcss/postcss@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@tailwindcss/postcss@npm:4.0.6"
   dependencies:
     "@alloc/quick-lru": "npm:^5.2.0"
-    "@tailwindcss/node": "npm:^4.0.0"
-    "@tailwindcss/oxide": "npm:^4.0.0"
+    "@tailwindcss/node": "npm:^4.0.6"
+    "@tailwindcss/oxide": "npm:^4.0.6"
     lightningcss: "npm:^1.29.1"
     postcss: "npm:^8.4.41"
-    tailwindcss: "npm:4.0.0"
-  checksum: 10/76a232425ae75053ab501b404d3689e14f8d3ca15168fb3d0f88b3709b3b59e8c2d5a6ad5eeb88cc5f239376ba904b9fcf6424735807766f9c0e9c3a6ddeb67e
+    tailwindcss: "npm:4.0.6"
+  checksum: 10/699dfc80447d7a1ecaabf70fa15ddb358f6d63e32fb47cae32b922b7e54c3894dab990692a8f8cd5bacfaddde8a5add096dee7f3930b9d4ea94def1e28b9f6dd
   languageName: node
   linkType: hard
 
@@ -5888,13 +5888,6 @@ __metadata:
   version: 3.0.1
   resolution: "tailwind-merge@npm:3.0.1"
   checksum: 10/bad61589b78530ce1d49a369b089ff606ed56d7d5aa67f57c04144751abbee3d844652a22595bfa21a4509d0d06946a9bc8c7e9ef74cd5fcf10c51925a2f14af
-  languageName: node
-  linkType: hard
-
-"tailwindcss@npm:4.0.0":
-  version: 4.0.0
-  resolution: "tailwindcss@npm:4.0.0"
-  checksum: 10/3491d86a7c3ad08209eb988fcf36d893e5f5a4c48c63da706a8788f6111e141386e1b5c8fa46f2650b08200c1b8011251d97b6d65514bdc14aa06597871d1f7d
   languageName: node
   linkType: hard
 
