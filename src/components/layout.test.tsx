@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 
-import { Layout } from '../layout';
+import { Layout } from './layout';
 
 describe('Layout component', () => {
   it('should render empty layout', () => {
