@@ -29,8 +29,6 @@
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.20.0",
     "@nodly/prettier-config": "5.2.3",
-    "@tailwindcss/aspect-ratio": "0.4.2",
-    "@tailwindcss/forms": "0.5.10",
     "@tailwindcss/postcss": "4.0.7",
     "@tailwindcss/typography": "0.5.16",
     "@testing-library/dom": "10.4.0",
