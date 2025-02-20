@@ -1,7 +1,7 @@
 export default function ContentPage() {
   return (
     <>
-      <div className="h-20 border-b border-b-gray-100 bg-gray-50">
+      <div className="h-20 border-b border-b-neutral-100 bg-neutral-50">
         <div className="mx-auto flex h-full max-w-7xl items-center px-6">
           <div className="inline-flex size-12 items-center justify-center rounded-lg bg-black text-xl font-bold text-white">
             <span>N</span>
