@@ -1027,7 +1027,7 @@ __metadata:
     jsdom: "npm:26.0.0"
     lucide-react: "npm:0.475.0"
     next: "npm:15.1.7"
-    postcss: "npm:8.5.2"
+    postcss: "npm:8.5.3"
     prettier: "npm:3.5.1"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
@@ -5078,7 +5078,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.2, postcss@npm:^8.4.41, postcss@npm:^8.5.1":
+"postcss@npm:8.5.3":
+  version: 8.5.3
+  resolution: "postcss@npm:8.5.3"
+  dependencies:
+    nanoid: "npm:^3.3.8"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10/6d7e21a772e8b05bf102636918654dac097bac013f0dc8346b72ac3604fc16829646f94ea862acccd8f82e910b00e2c11c1f0ea276543565d278c7ca35516a7c
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.41, postcss@npm:^8.5.1":
   version: 8.5.2
   resolution: "postcss@npm:8.5.2"
   dependencies:
