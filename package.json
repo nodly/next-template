@@ -29,7 +29,7 @@
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.20.0",
     "@nodly/prettier-config": "5.2.3",
-    "@tailwindcss/postcss": "4.0.7",
+    "@tailwindcss/postcss": "4.0.8",
     "@tailwindcss/typography": "0.5.16",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
