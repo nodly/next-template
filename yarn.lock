@@ -1030,7 +1030,7 @@ __metadata:
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     tailwind-merge: "npm:3.0.1"
-    tailwindcss: "npm:4.0.7"
+    tailwindcss: "npm:4.0.8"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.7.3"
     vite-tsconfig-paths: "npm:5.1.4"
@@ -5990,6 +5990,13 @@ __metadata:
   version: 4.0.7
   resolution: "tailwindcss@npm:4.0.7"
   checksum: 10/5c3f8406749027b5749651ad19a2f637e82a6abb994ac1363132cb2d1dfe623b0ecc3b7819fe0d005501d11f38722adc7d09abfda98da0e4be2adf586e316886
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:4.0.8":
+  version: 4.0.8
+  resolution: "tailwindcss@npm:4.0.8"
+  checksum: 10/2f2e67285f9d4b1030f2cee106c808a8ffe56c9304efa9e0c117ea86890ede1ac33a3e2ec6797040ac95048a7826a8c594f4e5801ac568d212a7f3d8c3f43c32
   languageName: node
   linkType: hard
 
