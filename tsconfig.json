@@ -1,36 +1,35 @@
 {
   "compilerOptions": {
     /* Base Options: */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "target": "es2022",
     "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "isolatedModules": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
 
     /* Strictness */
     "strict": true,
-    "noUncheckedIndexedAccess": true,
     "checkJs": true,
+    "noUncheckedIndexedAccess": true,
 
     /* Bundled projects */
     "lib": ["dom", "dom.iterable", "ES2022"],
+    "jsx": "preserve",
     "noEmit": true,
     "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "jsx": "preserve",
     "plugins": [{ "name": "next" }],
     "incremental": true,
+    "moduleResolution": "Bundler",
 
     /* Path Aliases */
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "baseUrl": "."
   },
   "include": [
-    ".eslintrc.cjs",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
