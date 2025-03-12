@@ -30,7 +30,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "3.3.0",
     "@nodly/prettier-config": "5.2.3",
-    "@tailwindcss/postcss": "4.0.12",
+    "@tailwindcss/postcss": "4.0.13",
     "@tailwindcss/typography": "0.5.16",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
@@ -47,7 +47,7 @@
     "jsdom": "26.0.0",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
-    "tailwindcss": "4.0.12",
+    "tailwindcss": "4.0.13",
     "ts-node": "10.9.2",
     "typescript": "5.8.2",
     "vite-tsconfig-paths": "5.1.4",
