@@ -30,7 +30,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "3.3.0",
     "@nodly/prettier-config": "5.2.3",
-    "@tailwindcss/postcss": "4.0.14",
+    "@tailwindcss/postcss": "4.0.15",
     "@tailwindcss/typography": "0.5.16",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
