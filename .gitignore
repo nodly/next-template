@@ -52,6 +52,9 @@ node_modules/
 .next
 out
 
+# Vercel config
+.vercel
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
