@@ -18,6 +18,7 @@ const config = [
   {
     rules: {
       '@typescript-eslint/require-await': 'off',
+      '@typescript-eslint/consistent-type-definitions': 'off',
 
       '@typescript-eslint/no-unused-vars': [
         'warn',
