@@ -1,8 +1,8 @@
 .next/
 .vscode/
 
-.yarn/
-.yarnrc.yml
+pnpm-lock.yaml
+pnpm-workspace.yaml
 
 public/
 coverage/
