@@ -9,7 +9,7 @@ Simple starter template for Next.js.
 Easiest way to get started with this template is to use [@nodly/create-app](https://github.com/nodly/create-app).
 
 ```
-yarn create @nodly/app <project-name>
+pnpm create @nodly/app <project-name>
 ```
 
 ## Usage
@@ -17,35 +17,35 @@ yarn create @nodly/app <project-name>
 Start the development server
 
 ```
-yarn dev
+pnpm dev
 ```
 
 Run linting for the app
 
 ```
-yarn lint
+pnpm lint
 ```
 
 Run tests for the app
 
 ```
-yarn test
+pnpm test
 ```
 
 Generate coverage report for tests
 
 ```
-yarn test run --coverage
+pnpm test run --coverage
 ```
 
 Build the app for production
 
 ```
-yarn build
+pnpm build
 ```
 
 Run the built app in production mode
 
 ```
-yarn start
+pnpm start
 ```
