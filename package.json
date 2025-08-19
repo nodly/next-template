@@ -6,8 +6,8 @@
   "author": "Nodly",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nodly/next-template.git"
+    "url": "git+https://github.com/nodly/next-template.git",
+    "type": "git"
   },
   "scripts": {
     "dev": "next dev --turbo",
