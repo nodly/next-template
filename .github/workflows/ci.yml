@@ -30,6 +30,9 @@ jobs:
       - name: Verify formatting
         run: pnpm prettier --check .
 
+      - name: Check linting
+        run: pnpm lint
+
       - name: Run test
         run: pnpm test run
 
