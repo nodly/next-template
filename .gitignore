@@ -15,11 +15,11 @@ pids
 *.pid.lock
 
 # Coverage directory used by tools like istanbul
-coverage
+/coverage
 *.lcov
 
 # Dependency directories
-node_modules/
+/node_modules
 
 # TypeScript cache
 next-env.d.ts
@@ -42,7 +42,6 @@ next-env.d.ts
 .envrc
 
 # Next.js build output
-# next.js
 /.next/
 /out/
 
