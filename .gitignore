@@ -22,6 +22,7 @@ coverage
 node_modules/
 
 # TypeScript cache
+next-env.d.ts
 *.tsbuildinfo
 
 # Optional npm cache directory
@@ -33,19 +34,20 @@ node_modules/
 # Optional REPL history
 .node_repl_history
 
-# dotenv environment variables file
+# local env files
+.env*.local
 .env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
 
 # Direnv environment file
 .envrc
 
 # Next.js build output
-.next
-out
+# next.js
+/.next/
+/out/
+
+# Production
+/build
 
 # Vercel config
 .vercel
