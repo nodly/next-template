@@ -1,30 +1,16 @@
-import { FlatCompat } from '@eslint/eslintrc';
+import nextVitals from 'eslint-config-next/core-web-vitals';
+import { defineConfig } from 'eslint/config';
+import tseslint from 'typescript-eslint';
 
-const compat = new FlatCompat({
-  baseDirectory: import.meta.dirname,
-});
-
-const config = [
+const config = defineConfig([
+  ...nextVitals,
   {
-    ignores: [
-      'node_modules/**',
-      '.next/**',
-      'out/**',
-      'build/**',
-      'next-env.d.ts',
-    ],
-  },
-  ...compat.config({
+    files: ['**/*.ts', '**/*.tsx'],
     extends: [
-      'next/core-web-vitals',
-      'plugin:@typescript-eslint/stylistic-type-checked',
-      'plugin:@typescript-eslint/recommended-type-checked',
+      ...tseslint.configs.recommended,
+      ...tseslint.configs.recommendedTypeChecked,
+      ...tseslint.configs.stylisticTypeChecked,
     ],
-    parserOptions: {
-      project: true,
-    },
-  }),
-  {
     rules: {
       '@typescript-eslint/require-await': 'off',
       '@typescript-eslint/consistent-type-definitions': 'off',
@@ -33,16 +19,15 @@ const config = [
         'warn',
         {
           argsIgnorePattern: '^_',
+          ignoreRestSiblings: true,
         },
       ],
-
       '@typescript-eslint/no-empty-interface': [
         'error',
         {
           allowSingleExtends: true,
         },
       ],
-
       '@typescript-eslint/no-misused-promises': [
         'error',
         {
@@ -51,7 +36,6 @@ const config = [
           },
         },
       ],
-
       '@typescript-eslint/consistent-type-imports': [
         'warn',
         {
@@ -61,6 +45,16 @@ const config = [
       ],
     },
   },
-];
+  {
+    linterOptions: {
+      reportUnusedDisableDirectives: true,
+    },
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+      },
+    },
+  },
+]);
 
 export default config;
