@@ -22,8 +22,7 @@ export default function Home() {
           <p className="mx-auto mt-4 max-w-3xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
             maxime voluptatum officia accusantium fugiat temporibus animi
-            molestiae quos ducimus! Corrupti minima, odio vero eius molestiae
-            debitis molestias maxime distinctio mollitia?
+            molestiae quos ducimus!
           </p>
           <a
             href="#"
