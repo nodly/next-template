@@ -1,21 +1,12 @@
 import { ExternalLinkIcon } from 'lucide-react';
 
-import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
 
 export default function Home() {
   return (
     <div className="py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-12">
-        <div
-          className={cn(
-            'flex',
-            'min-h-[calc(100dvh---spacing(40))]',
-            'flex-col',
-            'text-center',
-            'items-center',
-            'justify-center',
-          )}
-        >
+        <div className="flex min-h-[calc(100dvh---spacing(40))] flex-col items-center justify-center gap-6 text-center">
           <h1 className="text-2xl font-semibold sm:text-3xl">
             Nodly Next Template
           </h1>
@@ -25,13 +16,10 @@ export default function Home() {
             molestiae quos ducimus! Corrupti minima, odio vero eius molestiae
             debitis molestias maxime distinctio mollitia?
           </p>
-          <a
-            href="#"
-            className="mt-8 flex items-center gap-2 text-sky-600 underline transition-colors hover:text-sky-700"
-          >
+          <Button>
             <span>Read more</span>
-            <ExternalLinkIcon className="size-5" />
-          </a>
+            <ExternalLinkIcon data-icon="inline-end" />
+          </Button>
         </div>
       </div>
     </div>
