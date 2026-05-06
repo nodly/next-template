@@ -24,16 +24,17 @@
     "moduleResolution": "Bundler",
 
     /* Path Aliases */
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    },
-    "baseUrl": "."
+    }
   },
   "include": [
     "next-env.d.ts",
     "**/*.js",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.cjs",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
