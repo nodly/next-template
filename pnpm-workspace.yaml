@@ -3,9 +3,3 @@ allowBuilds:
   msw: true
   sharp: true
   unrs-resolver: true
-onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
-  - esbuild
-  - msw
-  - sharp
-  - unrs-resolver
