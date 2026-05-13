@@ -24,7 +24,6 @@
     "moduleResolution": "Bundler",
 
     /* Path Aliases */
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
