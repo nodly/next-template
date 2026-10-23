@@ -10,9 +10,7 @@ export default defineConfig({
   },
   plugins: [react(), stubNextAssetImport()],
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
+    tsconfigPaths: true,
   },
 });
 
