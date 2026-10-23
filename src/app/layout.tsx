@@ -12,7 +12,8 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-const inter = Inter({
+const fontSans = Inter({
+  weight: 'variable',
   subsets: ['latin'],
   variable: '--font-sans',
 });
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className={cn(inter.variable)}>
+    <html lang="en" className={cn(fontSans.variable)}>
       <body className="min-h-screen bg-white text-gray-900">
         <Layout>{children}</Layout>
         <Analytics />
