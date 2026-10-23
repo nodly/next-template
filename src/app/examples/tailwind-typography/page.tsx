@@ -10,11 +10,9 @@ export default function ContentPage() {
       </div>
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex justify-center">
-          <div className="prose">
+          <div className="typeset max-w-[72ch]">
             <h1>The Future of Technology</h1>
-            <p className="lead">
-              Exploring innovations that will shape the next decade.
-            </p>
+            <p>Exploring innovations that will shape the next decade.</p>
             <h2>Introduction</h2>
             <p>
               Technology is evolving at an unprecedented pace, transforming the
