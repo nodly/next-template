@@ -28,10 +28,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html
-      lang="en"
-      className={cn('tabular-nums', 'antialiased', 'font-sans', inter.variable)}
-    >
+    <html lang="en" className={cn(inter.variable)}>
       <body className="min-h-screen bg-white text-gray-900">
         <Layout>{children}</Layout>
         <Analytics />
