@@ -2,50 +2,50 @@
 
 # Nodly / Next.js Template
 
-Simple starter template for Next.js.
+A starter for building Next.js applications with the App Router. It includes Tailwind CSS, reusable UI components, and a Vitest setup for testing React components.
 
-## Installation
+## Create an app
 
-Easiest way to get started with this template is to use [@nodly/create-app](https://github.com/nodly/create-app).
+Use [`@nodly/create-app`](https://github.com/nodly/create-app) to create a project from this template:
 
-```
-pnpm create @nodly/app <project-name>
-```
-
-## Usage
-
-Start the development server
-
-```
+```sh
+pnpm create @nodly/app my-app
+cd my-app
+pnpm install
 pnpm dev
 ```
 
-Run linting for the app
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-```
-pnpm lint
+## Available commands
+
+| Command                    | Description                                                      |
+| -------------------------- | ---------------------------------------------------------------- |
+| `pnpm dev`                 | Start the development server.                                    |
+| `pnpm debug`               | Start the development server with the Node.js inspector enabled. |
+| `pnpm lint`                | Run ESLint.                                                      |
+| `pnpm check-types`         | Generate Next.js route types and run TypeScript checks.          |
+| `pnpm test`                | Start Vitest in watch mode.                                      |
+| `pnpm test run`            | Run the tests once.                                              |
+| `pnpm test run --coverage` | Run the tests once and generate a coverage report.               |
+| `pnpm build`               | Build the app for production.                                    |
+| `pnpm start`               | Serve the production build. Run `pnpm build` first.              |
+
+## Project layout
+
+```text
+src/
+├── app/                  # App Router pages and layouts
+│   └── examples/         # Example pages
+├── components/
+│   └── ui/               # Reusable UI components
+├── lib/                  # Shared utilities
+├── global.css            # Tailwind and global styles
+└── typeset.css           # Typography styles
 ```
 
-Run tests for the app
+The home page is in `src/app/page.tsx`. Update it and the metadata in `src/app/layout.tsx` to start shaping the app for your project. The typography example is available at `/examples/typeset-typography`.
 
-```
-pnpm test
-```
+## Testing
 
-Generate coverage report for tests
-
-```
-pnpm test run --coverage
-```
-
-Build the app for production
-
-```
-pnpm build
-```
-
-Run the built app in production mode
-
-```
-pnpm start
-```
+Tests use Vitest with a jsdom environment and React Testing Library. Add test files alongside the components or pages they cover using the `*.test.tsx` naming pattern.
