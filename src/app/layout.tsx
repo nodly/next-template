@@ -2,6 +2,7 @@ import '@/global.css';
 
 import type { Metadata, Viewport } from 'next';
 
+import { Analytics } from '@vercel/analytics/next';
 import { Inter } from 'next/font/google';
 
 import { Layout } from '@/components/layout';
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     >
       <body className="min-h-screen bg-white text-gray-900">
         <Layout>{children}</Layout>
+        <Analytics />
       </body>
     </html>
   );
