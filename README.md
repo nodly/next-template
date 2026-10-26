@@ -40,7 +40,7 @@ src/
 ├── components/
 │   └── ui/               # Reusable UI components
 ├── lib/                  # Shared utilities
-├── global.css            # Tailwind and global styles
+├── globals.css           # Tailwind and global styles
 └── typeset.css           # Typography styles
 ```
 
